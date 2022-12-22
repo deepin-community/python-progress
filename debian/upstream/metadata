@@ -1,0 +1,8 @@
+---
+Bug-Database: https://github.com/verigak/progress/issues
+Bug-Submit: https://github.com/verigak/progress/issues/new
+Registry:
+  - Name: PyPI
+    Entry: progress
+Repository: https://github.com/verigak/progress.git
+Repository-Browse: https://github.com/verigak/progress

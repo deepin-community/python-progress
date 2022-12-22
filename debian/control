@@ -1,0 +1,25 @@
+Source: python-progress
+Section: python
+Priority: optional
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Stefano Rivera <stefanor@debian.org>
+Build-Depends:
+ debhelper-compat (= 12),
+ dh-python,
+ python3-all,
+ python3-setuptools
+Standards-Version: 4.6.0
+Homepage: https://github.com/verigak/progress/
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-progress.git
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-progress
+Rules-Requires-Root: no
+
+Package: python3-progress
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: easy progress reporting for Python
+ This package provides several canned progress bars for command line Python
+ programs.  Progress bars are customizable and can be advanced by using the
+ next() method, with the finish() method to finish.
+ .
+ This is the Python 3 version.
